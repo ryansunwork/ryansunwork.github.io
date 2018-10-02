@@ -6,8 +6,7 @@ title: Ryan Sun
 # Welcome
 
 I am a postdoctoral fellow in the Department of Biostatistics at the Harvard T.H. Chan School of Public Health.
-Mentored by [Professor Xihong Lin](https://content.sph.harvard.edu/xlin/), I also received my PhD from this
-department in May 2017.
+I also received my PhD from this department in May 2017 under the mentorship of[Professor Xihong Lin](https://content.sph.harvard.edu/xlin/).
 This page collects some of the software relevant to my work.
 
 # Software
