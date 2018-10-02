@@ -7,7 +7,7 @@ title: Ryan Sun
 
 I am a postdoctoral fellow in the Department of Biostatistics at the Harvard T.H. Chan School of Public Health.
 I also received my PhD from this department in May 2017 under the mentorship of [Professor Xihong Lin](https://content.sph.harvard.edu/xlin/).
-This page collects some of the software relevant to my work.
+Below you can find some of the software that accompanies my work.
 
 # Software
 * [GEint](https://github.com/ryanrsun/GEint): An R package for performing inference on gene-environment (GxE) interaction
@@ -38,9 +38,8 @@ as the KM curve becomes smoother (more jumps).
     * Once the points have been captured, feed the coordinates and number-at-risk information into the package to reconstruct
 individual patient survival times and censored/event indicators.
 
-![rej_regions](/files/orig_KM.png){:class="img-responsive"}
-![rej_regions](/files/recon_Km.png){:class="img-responsive"}
-   *The original Kaplan-Meier curve (top) and one generated using reconstructed data (bottom).*
+![rej_regions](/files/two_KM.png){:class="img-responsive"}
+   *The original Kaplan-Meier curve (top, NEJM 2018) and one generated using reconstructed data (bottom).*
 
 * [GOF Exact Pvalue](https://github.com/ryanrsun/GOF_exact_pvalue): A C++ binary to calculate the exact p-value for supremum-based
 goodness-of-fit tests such as the Berk-Jones and Generalized-Berk Jones when factors in a set are correlated. 
