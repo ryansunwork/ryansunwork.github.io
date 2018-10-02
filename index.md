@@ -18,7 +18,8 @@ robust inference than, for example, a standard Wald test.
     * If utilizing a linear regression model, can also provide analytic expressions for the bias of the interaction
 regression coefficient.
 
-<img src="https://ryanrsun.github.io/files/mexico_mdi.png">
+![mexico_qqplot](/files/mexico_mdi.png){:class="img-responsive"}
+   *QQplots of p-values generated using BICS look much more uniform than those generated using model-based or standwich-type standard errors.*
 
 * [GBJ](https://github.com/ryanrsun/GBJ): An R package for performing set-based inference in genetic association studies with
 the Generalized Berk-Jones (GBJ). 
@@ -27,7 +28,8 @@ the Generalized Berk-Jones (GBJ).
     * This package also implements the Higher Criticism, Berk-Jones, Generalized Higher Criticism, and Minimum P-value statistics and provides an analytic 
 p-value for each of these tests when factors in a set are correlated.   
 
-<img src="https://ryanrsun.github.io/files/rej_regions.png">
+![rej_regions](/files/rej_regions.png){:class="img-responsive"}
+   *The rejection region for GBJ is well-suited to detect moderately sparse signals.*
 
 * [reconstructKM](https://github.com/ryanrsun/reconstructKM): An R package for reconstructing individual-level data from Kaplan-Meier
 curves published in medical journals.
@@ -36,8 +38,9 @@ as the KM curve becomes smoother (more jumps).
     * Once the points have been captured, feed the coordinates and number-at-risk information into the package to reconstruct
 individual patient survival times and censored/event indicators.
 
-<img src="https://ryanrsun.github.io/files/orig_KM.png">
-<img src="https://ryanrsun.github.io/files/recom_KM.png">
+![rej_regions](/files/orig_KM.png){:class="img-responsive"}
+![rej_regions](/files/recon_Km.png){:class="img-responsive"}
+   *The original Kaplan-Meier curve (top) and one generated using reconstructed data (bottom).*
 
 * [GOF Exact Pvalue](https://github.com/ryanrsun/GOF_exact_pvalue): A C++ binary to calculate the exact p-value for supremum-based
 goodness-of-fit tests such as the Berk-Jones and Generalized-Berk Jones when factors in a set are correlated. 
