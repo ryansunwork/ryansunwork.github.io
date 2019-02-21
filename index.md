@@ -9,6 +9,8 @@ I am a postdoctoral fellow in the Department of Biostatistics at the Harvard T.H
 I also received my PhD from this department in May 2017 under the mentorship of [Professor Xihong Lin](https://content.sph.harvard.edu/xlin/).
 Below you can find some of the software that accompanies my work.
 
+You can view my CV [here](/files/rsun-20190221.pdf)
+
 # Software
 * [GEint](https://github.com/ryanrsun/GEint): An R package for performing inference on gene-environment (GxE) interaction
 effects when the environment term is misspecified.
