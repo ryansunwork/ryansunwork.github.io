@@ -6,3 +6,5 @@ show_downloads: false
 title: Ryan Sun
 excerpt_separator: <!--more-->
 permalink: /blog/:year/:month/:day/:title
+future: true
+timezone: America/Chicago
