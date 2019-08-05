@@ -1,6 +1,6 @@
 name: Ryan Sun
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minima
 google_analytics: UA-126793910-1
 show_downloads: false
 title: Ryan Sun
