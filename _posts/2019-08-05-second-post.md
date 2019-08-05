@@ -3,7 +3,7 @@ layout: post
 title: "Building Personal GitHub Website"
 date: 2019-08-05
 author: Ryan 
-desription: Brief documentation of the steps I took to get my website up and running.
+description: Brief documentation of the steps I took to get my website up and running.
 tags: academic personal aug2019
 ---
 
