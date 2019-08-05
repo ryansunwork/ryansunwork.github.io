@@ -5,13 +5,11 @@ title: Ryan Sun
 
 # Welcome
 
-This is a link to my [blog](https://ryansunwork.github.io/blog/).
-This is a link to one of my [posts]({% post_url 2018-10-01-site-launched %}).
-This is a link to another [post]({% post_url 2019-08-05-second-post %}).
-
 I am a postdoctoral fellow in the Department of Biostatistics at the Harvard T.H. Chan School of Public Health.
 I also received my PhD from this department in May 2017 under the mentorship of [Professor Xihong Lin](https://content.sph.harvard.edu/xlin/).
 Below you can find some of the software that accompanies my work.
+
+This is a link to my [blog](https://ryansunwork.github.io/blog/).
 
 You can view my CV [here]( {{https://ryanrsun.github.io}}/files/rsun_20190221.pdf ).
 
