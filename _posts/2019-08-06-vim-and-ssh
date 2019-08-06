@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vim and ssh"
-date: 2019-08-05
+date: 2019-08-06
 description: Some vim shortcuts and using ssh keys for two different github accounts on one computer 
 tags: academic personal aug2019 github ssh vim
 ---
