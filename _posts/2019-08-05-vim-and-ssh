@@ -31,4 +31,4 @@ tags: academic personal aug2019 github ssh vim
 # Managing Github accounts
 I have two different github accounts (one main and one just for this blog) and I modify them from multiple computers (office laptop, personal laptop, office desktop). To work on the same account between different computers, use `git push origin master` as usual to push all your work online before leaving one computer. Then use `git pull origin master` to access this work from another computer that is "behind." Make sure the computer that is behind has not done any work since its last push, otherwise it might be difficult to merge.
 
- 
+To manage two different GitHub ssh accounts on the same computer, see [here](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574). Basically you need to create a *`config`* file in *`~/.ssh/`* that calls your second account SECOND-ACC or something like that. Then do `git remote add origin git@SECOND-ACC:USERNAME/REPO.git` and you will be able to `git push origin master` normally.  
