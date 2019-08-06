@@ -3,7 +3,7 @@ layout: post
 title: "Building Personal GitHub Website"
 date: 2019-08-05
 description: Brief documentation of the steps I took to get my website up and running.
-tags: academic personal aug2019
+tags: academic personal aug2019 github ruby html jekyll googleanalytics 
 ---
 
 # 1. Opening a separate github account
