@@ -1,9 +1,23 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+
+<h1><font color="black">{{ page.date | date_to_string }}</font></h1>
+
 
 <div class="post">
-  {{ content }}
+    {{ content }}
 </div>
+
+<span>Go back to the <a href="https://ryansunwork.github.io/blog">blog</a>.</span>
+<br />
+<br />
+<span>Go back <a href="https://ryansunwork.github.io">home</a>.</span>
+<br />
+<br />
+<span>[
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>

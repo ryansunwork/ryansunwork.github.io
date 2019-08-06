@@ -1,0 +1,10 @@
+<head>
+	{%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include analytics.html -%}
+  {%- endif -%}
+
+	{% if site.tags != "" %}
+  	{% include collecttags.html %}
+	{% endif %}
+ 
+</head>
