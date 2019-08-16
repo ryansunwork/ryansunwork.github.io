@@ -21,7 +21,7 @@ tags: academic personal aug2019 github ssh vim
 * `e` moves to the end of the word.
 * `w` moves to the beginning of the words.
 * `3w` moves forward three words.
-* 'b' moves backward to the beginning of a word.
+* `b` moves backward to the beginning of a word.
 * `3b` moves backward three words.
 * `)` jumps forward one sentence.
 * `(` jumps backward one sentence.
